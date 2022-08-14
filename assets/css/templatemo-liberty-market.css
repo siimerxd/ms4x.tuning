@@ -152,7 +152,6 @@ body {
 .border-button a:after {
   width: 78%;
   height: 2px;
-  background-color: #fff;
   content: '';
   position: absolute;
   left: 50%;
@@ -184,7 +183,6 @@ body {
 .main-button a:after {
   width: 78%;
   height: 2px;
-  background-color: #fff;
   content: '';
   position: absolute;
   left: 50%;
@@ -340,7 +338,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: #2a2a2a !important;
   height: 70px!important;
   position: fixed!important;
   top: 0!important;
@@ -485,7 +483,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #7453fc;
+  background-color: white;
   display: block;
   position: absolute;
   width: 30px;
@@ -496,7 +494,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #7453fc;
+  background-color: white;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -505,7 +503,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #7453fc;
+  background-color: white;
   display: block;
   position: absolute;
   width: 30px;
@@ -516,7 +514,7 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #7453fc;
+  background-color: white;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -557,11 +555,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #7453fc;
+  background-color: white;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #7453fc;
+  background-color: white;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -569,11 +567,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #7453fc;
+  background-color: white;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #7453fc;
+  background-color: white;
 }
 
 .header-area.header-sticky {
@@ -609,7 +607,7 @@ Header Style
   .header-area .main-nav .logo {
     position: absolute;
     left: 30px;
-    top: 15px;
+    top: 18px;
   }
   .background-header .main-nav .logo {
     top: 0px;
@@ -631,7 +629,7 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #4d4d4d;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -667,12 +665,12 @@ Header Style
     margin-top: 70px !important;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid black;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
+    background: #4d4d4d;
+    border-bottom: 1px solid black;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -681,8 +679,7 @@ Header Style
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #fff !important;
-    color: #926b6b !important;
+    background: #4d4d4d !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #fff !important;

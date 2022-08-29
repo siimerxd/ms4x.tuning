@@ -1860,6 +1860,14 @@ Author Page Style
   position: relative;
 }
 
+.contact-1 {
+  background-image: url(../images/contact-1.jpg);
+}
+
+.contact-2 {
+  background-image: url(../images/contact-2.jpg);
+}
+
 .author-page .author {
   display: flex;
 }
